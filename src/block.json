@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "custom-card-link/custom-card-link",
+	"version": "0.1.0",
+	"title": "Custom Card Link",
+	"category": "widgets",
+	"icon": "flag",
+	"description": "Creating a card-type link to the URL you enter.",
+	"attributes": {
+		"url": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "custom-card-link",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
